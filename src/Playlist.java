@@ -132,7 +132,7 @@ public void call_playlist_factory(int choice) {
     int returns = 0;
     String selected_playlist = choice == 1 ? "Músicas" : "Filmes"; //ternary operator to set playlist name
     boolean isPlaying = true;
-    String controls = "\n\n1 - Próxima mídia | 2 - Mídia anterior | 3 - Play/Pause | 4 - Misturar mídias | 5 - Menu inicial";
+    String controls = "\n\n1 - Próximo | 2 - Anterior | 3 - Play/Pause | 4 - Aleatório | 5 - Menu inicial";
 
     //type of media to create
     switch (choice) {
